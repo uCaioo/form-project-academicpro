@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cursos.css">
+    <title>Cursos</title>
+</head>
+<body>
+    <div class="container">
+        <header>Cadastro de cursos</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Informações do curso</span><br><br>
+
+                    <div class="fields">
+                        <div class="input field">
+                            <label>Nome completo:</label>
+                        <input type="text" placeholder="Digite o nome completo" required>
+                        </div>
+                        <br>
+                        
+                    <div class="fields">
+                        <div class="input field">
+                            <label>Nome reduzido:</label>
+                        <input type="text" placeholder="Digite o nome reduzido" required>
+                        <br>
+                        <br>
+                        <div class="input field">
+                            <label>Modalidade:</label>
+                            <select name="modalidade" id="Modalidade">
+                                <option value="Bacharelado">Bacharelado</option>
+                                <option value="Tecnólogo">Tecnólogo</option>
+                                <option value="Licenciatura">Licenciatura</option>
+                              </select>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Turma:</label>
+                        <input type="text" placeholder="Digite a turma" required>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

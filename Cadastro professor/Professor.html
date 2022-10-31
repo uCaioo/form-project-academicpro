@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="professor.css">
+    <title>Professor</title>
+</head>
+<body>
+    <div class="container">
+        <header>Cadastro de Professor(a)</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Informações do(a) professor(a)</span><br><br>
+
+                    <div class="fields">
+                        <div class="input field">
+                            <label>Nome completo:</label>
+                        <input type="text" placeholder="Digite o nome do professor" required>
+                        </div>
+                        <br>
+                        
+                        <div class="input field"><div class="input field">
+                            <label>Matrícula:</label>
+                        <input type="number" placeholder=" Digite a matrícula" required>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Graduação:</label>
+                        <input type="text" placeholder="Informe a graduação" required>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Histórico de hora-aula:</label>
+                        <input type="text" placeholder="Informe a hora-aula" required>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Titulação:</label>
+                            <select name="titulação" id="titulação">
+                                <option value="pós graduado(a)">Pós graduado(a)</option>
+                                <option value="mestre(a)">Mestre(a)</option>
+                                <option value="doutor(a)">Doutor(a)</option>
+                                <option value="phd">PhD</option>
+                              </select>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Regime de trabalho:</label>
+                            <select name="Regime de trabalho" id="Regime de trabalho">
+                                <option value="Integral">Integral</option>
+                                <option value="Parcial">Parcial</option>
+                                <option value="Parcial">DE</option>
+                              </select>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Data de contratação:</label>
+                        <input type="Date" placeholder="Selecione a data" required>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Data do desligamento:</label>
+                        <input type="Date" placeholder="Selecione a data" required>
+                        </div>
+                        <br>
+                        <div class="input field">
+                            <label>Status:</label>
+                            <select name="Status" id="status">
+                                <option value="Ativo">Ativo</option>
+                                <option value="Inativo">Inativo</option>
+                              </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
